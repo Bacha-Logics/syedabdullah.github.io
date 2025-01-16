@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			.image-container img {
+			  width: 400px; /* Set the desired width */
+			  height: 400px; /* Set the desired height */
+			  object-fit: cover; /* Ensures images scale without distortion */
+			  border: 1px solid #ccc; /* Optional: Add a border for better visualization */
+			}
+		  </style>
+
+	</head>
+	<body class="is-preload">
+
+
+
+				<!-- Header -->
+					<header id="header">
+						<a href="projects.html" class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">profile</a></li>
+							<li><a href="aboutme.html">About me</a></li>
+							<li class="active"><a href="projects.html">Projects</a></li>
+							<li><a href="certifications.html">Certifications</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/syed-abdullah-aa1b3224b/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/Bacha-Logics" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">Jun 05, 2024</span>
+										<h2><a>Antobot - Your Virtual Anatomy Guide<br />
+										</h2>
+									</header>
+									<div>
+										<div class="image-container">
+										<a  class="image fit"><img src="human.jpg" alt="" /></a></div>
+										<div class="story">
+											<p>
+												This project focuses on developing an innovative computer program designed to revolu-
+											tionize the learning of human anatomy. This program integrates advanced features such
+											as an AI-powered chatbot, AI-driven quizzes, and immersive 3D anatomy visualization
+											tools. The motivation behind this initiative arises from the common challenges students
+											face in mastering extensive anatomy content within limited timeframes, often leading to
+											gaps in understanding and retention.
+											  <span class="full-story">
+												To address these issues, we aimed to create a dy-
+										namic, interactive educational tool that enhances learning outcomes. We began by review-
+										ing relevant research to identify key areas where students struggle and to explore potential
+										technological solutions. A meticulously prepared dataset, sourced from "Snell’s Clinical
+										Anatomy," provided the foundational information needed to train our system. Leverag-
+										ing natural language processing (NLP), we developed a chatbot using the BioMistral 7B
+										model, chosen for its expertise in handling medical terminology and concepts. This chat-
+										bot was rigorously trained and fine-tuned to ensure accurate and contextually appropriate
+										responses to a wide range of anatomy-related queries. The chatbot’s performance was
+										evaluated using an evaluation matrix focusing on faithfulness and relevancy. The chat-
+										bot achieved a faithfulness score of 0.83 and a relevancy score of 0.87, validating its
+										effectiveness in providing accurate and pertinent information. In addition to the chatbot,
+										the program features AI-driven quizzes that reinforce learning by adapting to the user’s
+										progress and identifying areas for improvement. The 3D anatomy visualization tool en-
+										hances the learning experience by offering an interactive exploration of human organs and
+										systems, catering to different learning styles. By combining textual, visual, and interac-
+										tive elements, our program provides a comprehensive and engaging approach to anatomy
+										education.</br>
+										<a href="https://github.com/Bacha-Logics/Antobot---Your-Virtual-Anatomy-Guide">View Code</a>
+										
+											  </span>
+											</p>
+											<li><a href="javascript:void(0);" class="button" onclick="toggleStory(event, this)">Continue</a></li>
+										  </div>
+													
+									
+								
+									
+									
+								
+								</article>
+								<article>
+									<header>
+										<span class="date">Mar 22, 2023</span>
+										<h2><a>Cyber Attack Classification<br />
+										</h2>
+									</header>
+									<div class="image-container">
+									<a  class="image fit"><img src="cyber.jpg" alt="" /></a></div>
+									<div class="story">
+										<p>
+											This project involved developing a robust system to classify cyber-attacks within network traffic by analyzing various network attributes. The system was designed to detect and categorize malicious activities, contributing to improved network security. To achieve this, multiple machine learning algorithms were implemented, including Decision Tree, K-Nearest Neighbors (KNN), and Artificial Neural Networks (ANN).
+										  <span class="full-story">
+											The classification system was rigorously evaluated using a comprehensive dataset of network traffic attributes. Each algorithm's performance was assessed in terms of accuracy, achieving an impressive range of 92% to 95% on average. These results highlight the system's effectiveness in accurately identifying cyber-attacks, making it a valuable tool for real-time threat detection and mitigation in network environments.
+										
+
+                                             This project demonstrates proficiency in machine learning, data analysis, and cybersecurity, offering a scalable solution to bolster network defense mechanisms.
+										 
+										</br>
+										  <a href="https://github.com/Bacha-Logics/Cyber-Attack-Classification">View Code</a>
+										</span> 
+										</p>
+										<li><a href="javascript:void(0);" class="button" onclick="toggleStory(event, this)">Continue</a></li>
+									  </div>
+									
+									
+									  <script>
+										function toggleStory(event, button) {
+										  event.preventDefault(); // Prevent navigation
+										  const story = button.closest('.story'); // Get the closest parent `.story` div
+										  const fullStory = story.querySelector('.full-story'); // Find the full story within this specific story
+									
+										  if (fullStory.style.display === 'none' || fullStory.style.display === '') {
+											fullStory.style.display = 'inline'; // Show the full story
+											button.textContent = 'Show Less'; // Change button text
+										  } else {
+											fullStory.style.display = 'none'; // Hide the full story
+											button.textContent = 'Continue'; // Revert button text
+										  }
+										}
+									  </script>
+								</article>
+								
+							</section>
+
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="next.html" class="page">2</a>
+									
+								</div>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+					
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
